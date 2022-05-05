@@ -43,7 +43,7 @@ typedef enum _HARDERROR_RESPONSE
 ```c++
 #include <SubAuth.h>
 ```
-OR
+或
 ```c++
 typedef struct _UNICODE_STRING
 {
