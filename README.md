@@ -4,7 +4,7 @@ NTAPI制造蓝屏视频源代码，用于演示未公开的NtAPI - NtRaiseHardEr
 ## 关于NtRaiseHardError
 
 ### 函数原型
- - UINT NtRaiseHardError(NTSTATUS ErrorStatus, ULONG NumberOfParameters, PUNICODE_STRING UnicodeStringParameterMask OPTIONAL, PVOID Parameters, HARDERROR_RESPONSE_OPTION ResponseOption, PHARDERROR_RESPONSE Response);
+ - ```UINT NtRaiseHardError(NTSTATUS ErrorStatus, ULONG NumberOfParameters, PUNICODE_STRING UnicodeStringParameterMask OPTIONAL, PVOID Parameters, HARDERROR_RESPONSE_OPTION ResponseOption, PHARDERROR_RESPONSE Response);```
 
 ### 未导出类型
  - PHARDERROR_RESPONSE_OPTION
