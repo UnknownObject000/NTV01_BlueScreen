@@ -8,6 +8,11 @@ NTAPI制造蓝屏视频源代码，用于演示未公开的NtAPI - NtRaiseHardEr
 UINT NtRaiseHardError(NTSTATUS ErrorStatus, ULONG NumberOfParameters, PUNICODE_STRING UnicodeStringParameterMask OPTIONAL, PVOID Parameters, HARDERROR_RESPONSE_OPTION ResponseOption, PHARDERROR_RESPONSE Response);
 ```
 
+### 函数指针类型
+```c++
+typedef UINT(CALLBACK* typeNtRaiseHardError)(NTSTATUS, ULONG, PUNICODE_STRING, PVOID, HARDERROR_RESPONSE_OPTION, PHARDERROR_RESPONSE);
+```
+
 ### 未导出类型
  - PHARDERROR_RESPONSE_OPTION
 ```c++
